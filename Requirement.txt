@@ -1,0 +1,15 @@
+import cv2
+from PIL import Image 
+from email.message import EmailMessage
+import smtplib, ssl
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email.mime.multipart import MIMEMultipart
+from email import encoders
+import imghdr 
+import os 
+import pywhatkit 
+import cv2
+import numpy as np
+from os import listdir
+from os.path import isfile, join
